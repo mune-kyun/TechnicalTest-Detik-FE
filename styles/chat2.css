@@ -1,0 +1,26 @@
+#chat2-img-container {
+  margin-right: 20px;
+  width: auto;
+  height: 93vw;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+}
+
+#chat2-img-people {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  object-position: left;
+}
+
+#chat2-img-calendar {
+  width: 168px;
+  height: 72px;
+  object-fit: cover;
+  position: absolute;
+  object-position: top right;
+  right: 9px;
+  top: 12px;
+}

@@ -22,6 +22,30 @@
   height: 8.24px;
 }
 
+.explanation {
+  padding: 30px;
+}
+
+.explanation h1 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #232340;
+}
+
+.explanation p {
+  margin-top: 24px;
+  margin-bottom: 51px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #232340e5;
+}
+
 /* Helper */
 .center-with-flex {
   display: flex;

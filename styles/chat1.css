@@ -24,27 +24,3 @@
   position: absolute;
   object-position: left;
 }
-
-#chat1 .explanation {
-  padding: 30px;
-}
-
-#chat1 .explanation h1 {
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 42px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #232340;
-}
-
-#chat1 .explanation p {
-  margin-top: 24px;
-  margin-bottom: 51px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #232340e5;
-}
