@@ -1,8 +1,8 @@
-#chat2 {
-  margin-top: 40px;
+#work {
+  margin-top: 72px;
 }
 
-#chat2-img-container {
+#work-img-container {
   margin: 0 20px 48px 0;
   width: auto;
   height: 93vw;
@@ -11,7 +11,7 @@
   position: relative;
 }
 
-#chat2-img-people {
+#work-img-people {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -19,12 +19,18 @@
   object-position: left;
 }
 
-#chat2-img-calendar {
-  width: auto;
-  height: 23vw;
-  object-fit: cover;
+#work-img-absolute {
   position: absolute;
-  object-position: top right;
   right: 9px;
   top: 12px;
+  width: 33vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#work-img-card {
+  width: 100%;
+  height: auto;
 }
