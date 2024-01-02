@@ -1,6 +1,6 @@
 #hero {
   /* Set background image */
-  background-image: url("../assets/hero.jpg");
+  background-image: url("../assets/hero-img.jpg");
   /* Specify background properties */
   background-size: cover; /* Cover the entire viewport */
   background-position: 70% 50%; /* Center the image */

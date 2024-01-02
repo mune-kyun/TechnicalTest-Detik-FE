@@ -6,6 +6,22 @@
   border: 0;
 }
 
+.learnmore-a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5468e7;
+  text-decoration: underline;
+}
+
+.learnmore-arrow {
+  margin-left: 8px;
+  width: 19.73px;
+  height: 8.24px;
+}
+
 /* Helper */
 .center-with-flex {
   display: flex;
