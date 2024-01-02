@@ -1,8 +1,8 @@
-#work {
-  margin-top: 72px;
+#tools {
+  margin-top: 87px;
 }
 
-#work-img-container {
+#tools-img-container {
   margin: 0 20px 48px 0;
   width: auto;
   height: 93vw;
@@ -11,7 +11,7 @@
   position: relative;
 }
 
-#work-img-people {
+#tools-img-people {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -19,10 +19,10 @@
   object-position: left;
 }
 
-#work-img-absolute {
+#tools-img-absolute {
   position: absolute;
-  right: 9px;
-  top: 12px;
+  left: 12px;
+  bottom: 12px;
   width: 33vw;
   height: auto;
   display: flex;
@@ -30,7 +30,7 @@
   gap: 8px;
 }
 
-.work-img-card {
+.tools-img-card {
   width: 100%;
   height: auto;
 }
