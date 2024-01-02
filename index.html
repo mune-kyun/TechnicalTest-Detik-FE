@@ -18,6 +18,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css" />
     <!-- Custom CSS -->
     <link href="./styles/main.css" rel="stylesheet" />
     <link href="./styles/hero.css" rel="stylesheet" />
@@ -64,6 +66,7 @@
         <button type="button" class="btn btn-email">Button Label</button>
       </form>
     </section>
+
     <!-- Chat 1 -->
     <section id="chat1">
       <div id="chat1-img-container">
@@ -88,6 +91,7 @@
         </a>
       </div>
     </section>
+
     <!-- Chat 2 -->
     <section id="chat2">
       <div id="chat2-img-container">
@@ -121,6 +125,7 @@
         </a>
       </div>
     </section>
+
     <!-- Work -->
     <section id="work">
       <div id="work-img-container">
@@ -161,6 +166,7 @@
         </a>
       </div>
     </section>
+
     <!-- Tools -->
     <section id="tools">
       <div id="tools-img-container">
@@ -201,9 +207,79 @@
         </a>
       </div>
     </section>
+
     <!-- Testimony -->
     <section id="testimony" class="explanation">
       <h1 style="text-align: center">What people say about Team</h1>
+      <div class="testimony-swiper-container">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimony-card-content">
+                <div class="testimony-star-container">
+                  <img
+                    src="assets/icons/testimony-star.svg"
+                    alt="Star"
+                    width="23px"
+                    height="21px"
+                  />
+                  <img
+                    src="assets/icons/testimony-star.svg"
+                    alt="Star"
+                    width="23px"
+                    height="21px"
+                  />
+                </div>
+                <p>
+                  Vestibulum eu quam nec neque pellentesque efficitur id eget
+                  nisl. Proin porta est convallis lacus blandit pretium sed non
+                  enim. Maecenas lacinia non orci at aliquam. Donec finibus,
+                  urna bibendum ultricies laoreet.
+                </p>
+                <div class="testimony-profile">
+                  <img
+                    src="assets/data/testimony-person-1.jpg"
+                    alt="profile-pict"
+                    width="56px"
+                    width="56px"
+                  />
+                  <div class="testimony-profile-text">
+                    <h3>Chealsea Morgan</h3>
+                    <p>CEO ot Subway</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+          </div>
+        </div>
+      </div>
+      <div class="c-swiper-pagination">
+        <button onclick="goToPrev()">
+          <img
+            id="c-swiper-pagination-left"
+            src="assets/icons/swiper-pagination-left.svg"
+            alt="Arrow-left"
+            width="32px"
+            height="32px"
+          />
+        </button>
+        <button onclick="goToNext()">
+          <img
+            id="c-swiper-pagination-left"
+            src="assets/icons/swiper-pagination-right.svg"
+            alt="Arrow-right"
+            width="32px"
+            height="32px"
+          />
+        </button>
+      </div>
     </section>
+
+    <!-- Scripts -->
+    <script src="./libs/jquery-3.7.1.min.js" defer></script>
+    <script src="./libs/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts/main.js" defer></script>
   </body>
 </html>

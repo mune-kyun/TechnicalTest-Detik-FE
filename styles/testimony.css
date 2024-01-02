@@ -1,3 +1,105 @@
 #testimony {
   margin-top: 120px;
 }
+
+/* Swiper */
+.testimony-swiper-container {
+  margin: 0 auto;
+  margin-top: 80px;
+  overflow: hidden;
+  padding: 30px;
+  width: 100%;
+}
+
+.swiper-container {
+  height: auto; /* Adjust as needed */
+}
+
+/* Customize the appearance of swiper slides if needed */
+.swiper-slide {
+  box-shadow: 0px 15px 50px 0px rgba(0, 0, 0, 0.08),
+    0px 1px 8px 0px rgba(0, 0, 0, 0.01), 0px 3px 130px 0px rgba(0, 0, 0, 0.06),
+    0px 12px 43.24px 2.76px rgba(0, 0, 0, 0.14);
+  width: 260px !important;
+}
+
+.c-swiper-pagination {
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+  justify-content: right;
+}
+
+.c-swiper-pagination button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  line-height: normal;
+  overflow: visible;
+  cursor: pointer;
+}
+
+/* Custom */
+
+.testimony-star-container {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.testimony-card-content {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 44px 33px;
+  border-radius: 8px;
+}
+
+.testimony-card-content p {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(35, 35, 64, 0.9);
+}
+
+.testimony-profile {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.testimony-profile-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  height: fit-content;
+}
+
+.testimony-profile-text h3 {
+  color: rgba(35, 35, 64, 1);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+.testimony-profile-text p {
+  color: rgba(118, 118, 178, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin: 0;
+}
