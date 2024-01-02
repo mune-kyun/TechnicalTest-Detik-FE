@@ -1,5 +1,9 @@
+#chat2 {
+  margin-top: 40px;
+}
+
 #chat2-img-container {
-  margin-right: 20px;
+  margin: 0 20px 48px 0;
   width: auto;
   height: 93vw;
   overflow: hidden;
