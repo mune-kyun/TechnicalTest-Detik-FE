@@ -27,15 +27,6 @@ nav {
   justify-content: space-between;
 }
 
-#hero .br-mobile {
-  display: block;
-}
-
-#hero .br-tab,
-#hero .br-desktop {
-  display: none;
-}
-
 #hero-title span {
   background-color: transparent;
 }
@@ -102,15 +93,6 @@ nav {
     text-align: left;
   }
 
-  #hero .br-tab {
-    display: block;
-  }
-
-  #hero .br-mobile,
-  #hero .br-desktop {
-    display: none;
-  }
-
   #hero form {
     display: flex;
     flex-direction: row;
@@ -122,6 +104,10 @@ nav {
 }
 
 @media (min-width: 1200px) {
+  #hero .hero-content {
+    max-width: 80vw;
+  }
+
   nav {
     display: flex;
     gap: 56px;
@@ -138,15 +124,6 @@ nav {
   }
 
   .hamburger-container {
-    display: none;
-  }
-
-  #hero .br-desktop {
-    display: block;
-  }
-
-  #hero .br-mobile,
-  #hero .br-tab {
     display: none;
   }
 }

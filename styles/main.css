@@ -6,6 +6,15 @@
   border: 0;
 }
 
+.br-mobile {
+  display: block;
+}
+
+.br-tab,
+.br-desktop {
+  display: none;
+}
+
 .learnmore-a {
   font-size: 16px;
   font-weight: 500;
@@ -51,4 +60,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 568px) {
+  .br-tab {
+    display: block;
+  }
+
+  .br-mobile,
+  .br-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .br-desktop {
+    display: block;
+  }
+
+  .br-mobile,
+  .br-tab {
+    display: none;
+  }
+
+  .explanation p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .explanation h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
 }
