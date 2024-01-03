@@ -28,13 +28,18 @@ footer {
 }
 
 .footer-list {
-  margin-top: 56px;
+  margin-top: 20px;
   display: grid;
   grid-gap: 48px;
   grid-template-columns: 1fr;
 }
 
-.footer-list h3 {
+.footer-email {
+  margin-top: 52px;
+}
+
+.footer-list h3,
+.footer-email h3 {
   margin: 0;
   color: rgba(84, 104, 231, 1);
   font-size: 24px;
@@ -45,7 +50,8 @@ footer {
 }
 
 .footer-list a,
-.footer-list p {
+.footer-list p,
+.footer-email p {
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
