@@ -36,6 +36,7 @@ footer {
 
 .footer-email {
   margin-top: 52px;
+  order: 0;
 }
 
 .footer-list h3,
@@ -97,4 +98,50 @@ footer .input-group input:focus {
   letter-spacing: 0.01em;
   text-align: left;
   color: rgba(245, 245, 245, 1);
+}
+
+@media (min-width: 568px) {
+  .footer-list {
+    margin-top: 48px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .footer-email {
+    margin-top: 48px;
+    order: 1;
+  }
+
+  footer .copyright {
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-flex {
+    width: fit-content;
+    flex-direction: row;
+  }
+
+  .footer-list {
+    margin-top: 20px;
+    margin-left: 130px;
+    margin-right: 61px;
+  }
+
+  .footer-email {
+    margin-top: 20px;
+  }
+
+  footer .copyright {
+    margin-top: 160px;
+    width: fit-content;
+    text-align: start;
+  }
 }
