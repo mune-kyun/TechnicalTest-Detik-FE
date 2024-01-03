@@ -9,11 +9,27 @@
   background-color: #f8f8f8;
   padding: 30px 30px 88px 30px;
   color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+}
+
+#hero .hero-content {
+  width: 100%;
+  max-width: 1160px;
 }
 
 #hero-title {
   display: flex;
   justify-content: space-between;
+}
+
+#hero .br-mobile {
+  display: block;
+}
+
+#hero .br-tab,
+#hero .br-desktop {
+  display: none;
 }
 
 .hamburger-container {
@@ -29,6 +45,7 @@
   line-height: 50px;
   letter-spacing: -0.02em;
   text-align: left;
+  margin-bottom: 0;
 }
 
 #hero h2 {
@@ -61,4 +78,52 @@
   gap: 8px;
   background-color: #5468e7;
   color: #f5f5f5;
+}
+
+@media (min-width: 568px) {
+  #hero h2 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  #hero p {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  #hero .br-tab {
+    display: block;
+  }
+
+  #hero .br-mobile,
+  #hero .br-desktop {
+    display: none;
+  }
+
+  #hero form {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #hero form .input-group {
+    width: 268px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #hero .br-desktop {
+    display: block;
+  }
+
+  #hero .br-mobile,
+  #hero .br-tab {
+    display: none;
+  }
 }
