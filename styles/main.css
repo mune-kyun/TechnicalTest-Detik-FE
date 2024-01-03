@@ -83,6 +83,10 @@
     display: none;
   }
 
+  .explanation {
+    padding: 0;
+  }
+
   .explanation p {
     font-size: 18px;
     font-weight: 400;

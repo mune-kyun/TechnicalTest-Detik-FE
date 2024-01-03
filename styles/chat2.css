@@ -22,9 +22,45 @@
 #chat2-img-calendar {
   width: auto;
   height: 23vw;
-  object-fit: cover;
   position: absolute;
   object-position: top right;
   right: 9px;
   top: 12px;
+}
+
+@media (min-width: 568px) {
+  .chat2-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+
+  #chat2-img-container {
+    overflow: visible;
+    margin: 0;
+    width: 300vw;
+    height: 80vw;
+    max-height: 565px;
+    max-width: 565px;
+  }
+
+  #chat2-img-calendar {
+    height: 10vw;
+    max-height: 110px;
+    max-width: 256px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #chat2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .chat2-content {
+    max-width: 80vw;
+    justify-content: space-between;
+    gap: 100px;
+  }
 }
