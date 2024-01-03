@@ -58,6 +58,24 @@ function newCard({ testimony, img, name, position }) {
             width="23px"
             height="21px"
           />
+          <img
+            src="assets/icons/testimony-star.svg"
+            alt="Star"
+            width="23px"
+            height="21px"
+          />
+          <img
+            src="assets/icons/testimony-star.svg"
+            alt="Star"
+            width="23px"
+            height="21px"
+          />
+          <img
+            src="assets/icons/testimony-star.svg"
+            alt="Star"
+            width="23px"
+            height="21px"
+          />
         </div>
         <p>
           ${testimony}

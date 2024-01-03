@@ -103,3 +103,41 @@
   text-align: left;
   margin: 0;
 }
+
+@media (min-width: 568px) {
+  #testimony.explanation h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .c-swiper-pagination {
+    margin-top: 40px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  #testimony {
+    display: flex;
+    justify-content: center;
+  }
+
+  .testimony-content {
+    max-width: 80vw;
+  }
+
+  .testimony-swiper-container {
+    margin-top: 120px;
+  }
+
+  .swiper-slide {
+    width: 367px !important;
+  }
+
+  .c-swiper-pagination {
+    justify-content: right;
+  }
+}
