@@ -18,6 +18,10 @@
   max-width: 1160px;
 }
 
+nav {
+  display: none;
+}
+
 #hero-title {
   display: flex;
   justify-content: space-between;
@@ -30,9 +34,6 @@
 #hero .br-tab,
 #hero .br-desktop {
   display: none;
-}
-
-.hamburger-container {
 }
 
 #hero-title span {
@@ -81,6 +82,9 @@
 }
 
 @media (min-width: 568px) {
+  #hero {
+    padding: 40px 30px 88px 30px;
+  }
   #hero h2 {
     font-size: 50px;
     font-weight: 700;
@@ -118,6 +122,25 @@
 }
 
 @media (min-width: 1200px) {
+  nav {
+    display: flex;
+    gap: 56px;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(245, 245, 245, 1);
+  }
+
+  .hamburger-container {
+    display: none;
+  }
+
   #hero .br-desktop {
     display: block;
   }
