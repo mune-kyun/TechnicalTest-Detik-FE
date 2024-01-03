@@ -1,0 +1,94 @@
+footer {
+  margin-top: 137px;
+  padding: 48px 24px 37px 24px;
+  background-color: rgba(35, 35, 64, 1);
+  color: rgba(245, 245, 245, 1);
+}
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.footer-title p {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.footer-list {
+  margin-top: 56px;
+  display: grid;
+  grid-gap: 48px;
+  grid-template-columns: 1fr;
+}
+
+.footer-list h3 {
+  margin: 0;
+  color: rgba(84, 104, 231, 1);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.footer-list a,
+.footer-list p {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.footer-list a:hover {
+  text-decoration: underline;
+}
+
+.footer-list-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+footer .copyright {
+  margin-top: 120px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+footer form {
+  margin-top: 10px;
+}
+
+footer .input-group input,
+footer .input-group input:focus {
+  background-color: rgba(245, 245, 245, 0.24);
+  max-width: 268px;
+}
+
+footer .input-group input::placeholder,
+footer .input-group input:focus {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: rgba(245, 245, 245, 1);
+}
